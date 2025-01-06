@@ -34,7 +34,7 @@ flutter_native_splash:
   # of your splash screen to a solid color.  Use background_image to set the background of your
   # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
   # size of the app. Only one parameter can be used, color and background_image cannot both be set.
-  color: "#42f56f"
+  color: "#8aeda3"
   #background_image: "assets/images/splachbg_png.png"
 
   # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
@@ -42,7 +42,7 @@ flutter_native_splash:
 
   # The image parameter allows you to specify an image used in the splash screen.  It must be a
   # png file and should be sized for 4x pixel density.
-  image: assets/images/spacg_icon.png
+  # image: assets/images/extreme-weather.png
 
   # The branding property allows you to specify an image used as branding in the splash screen.
   # It must be a png file. It is supported for Android, iOS and the Web.  For Android 12,
@@ -79,8 +79,7 @@ flutter_native_splash:
     # 768 pixels in diameter.  To fit a 1152x1152 image within a circle with a 768 diameter, simply 
     # ensure that the most important design elements of your image are placed within a circular area
     # with a 768 diameter at the center of the 1152x1152 canvas.
-    image: "assets/images/spacg_icon.png"
-
+    image: assets/images/cropped-spacg_icon.png
     # Splash screen background color.
     #color: "#42a5f5"
 
@@ -93,7 +92,7 @@ flutter_native_splash:
     # The image_dark, color_dark, icon_background_color_dark, and branding_dark set values that
     # apply when the device is in dark mode. If they are not specified, the app will use the
     # parameters from above.  If there is no parameter above, the app will use the light mode values.
-    #image_dark: "assets/images/splachbg_png.png"
+    #image_dark: assets/images/cropped-spacg_icon (1).png
     #color_dark: "#042a49"
     #icon_background_color_dark: "#eeeeee"
 
